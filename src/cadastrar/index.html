@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pacientes</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>Cadastrar novo paciente</h1>
+        <hr>
+
+        <form class="box">
+
+            <div class="form-group col-sm">
+                <label for="nome">Nome: </label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group col-sm">
+                <label for="sexo">Sexo: </label>
+
+                <select name="sexo" id="sexo" class="form-control col-sm">
+                    <option value="off" selected></option>
+                    <option value="masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                  </select>
+            
+            </div>
+
+            <div class="form-group col-sm">
+                <label for="email"> Email: </label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group col-sm">
+                <label for="cpf"> CPF: </label>
+                <input type="text" class="form-control">
+            </div>
+                
+            <div class="form-group col-sm">
+                <label for="telefone">Contato: </label>
+                <input type="text" class="form-control">
+                <small>(DDD) 9 0000-0000</small>
+            </div>
+            
+            <div class="end col-sm">
+                <button type="submit" class="btn btn-outline-success button" class="button">Cadastrar</button> 
+    
+            </div>
+
+        </form>
+
+        
+        <hr>
+    </main>
+</body>
+
+</html>
